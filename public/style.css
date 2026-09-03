@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color:white;
+    padding-top: 60px;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+
+    color:white;
+}
+
+h2{
+    color:white;
+}
+
+#special{
+    color:#D4AF37;
+}
+
+#special2{
+    color:#B2AA8B;
+}
+
+.navbar {
+    background-color: #111111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #D4AF37 !important;
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: white !important;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    width: 200px; /* Ancho de la imagen */
+    height: 200px; /* Altura igual al ancho */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Ajusta la imagen para que no se distorsione */
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.gold {
+    color: #D4AF37;
+}
